@@ -8,7 +8,23 @@ function drawSongs(results) {
   console.log(results)
   //YOUR CODING STARTS HERE
 
+  // let songs = itunesService.getMusicByArtist()
+  // let template = ''
 
+  // for (let i = 0; i < songs.length; i++) {
+  //   const song = songs[i];
+  //   template += `
+  //   <div style="outline: 1px solid black" class="col-3">
+  //       <p>Title: ${song.title}</p>
+  //       <p>Artist: ${song.artist}</p>
+  //       <p>Price: ${song.price}</p>
+  //       <img src="${song.albumart}" alt="somethingelse">
+  //       <p>Preview: ${song.preview}</p>
+  //    </div>
+  //   `
+  // }
+
+  // document.getElementById('song-list').innerHTML = template
 }
 
 
