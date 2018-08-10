@@ -13,7 +13,7 @@ function drawSongs(results) {
   for (let i = 0; i < results.length; i++) {
     const song = results[i];
     template += `
-  <div style="outline: 1px solid black" class="col-3">
+  <div class="col-3">
   <img src="${song.albumArt}" alt="somethingelse">
       <p>Title: ${song.title}</p>
       <p>Artist: ${song.artist}</p>
