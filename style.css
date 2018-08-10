@@ -1,3 +1,12 @@
+.tile-title {
+ display: flex;
+ flex-flow: row nowrap;
+ flex-wrap: wrap;
+ align-items: flex-start;
+ justify-content: center;
+ align-content: space-evenly;
+}
+
 .music-tiles {
  display: flex;
  flex-flow: row nowrap;
@@ -5,5 +14,11 @@
  align-items: flex-start;
  justify-content: center;
  align-content: space-evenly;
+}
 
+.set-width{
+ white-space: nowrap; 
+ width: 200px; 
+ overflow: hidden;
+ text-overflow: ellipsis; 
 }
