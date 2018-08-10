@@ -14,8 +14,5 @@ class ItunesService {
 }
 
 
-}
-
-
 
 export default ItunesService
