@@ -14,11 +14,11 @@ function drawSongs(results) {
     const song = results[i];
     template += `
   <div style="outline: 1px solid black" class="col-3">
-      <p>Test: ${song.title}</p>
-      <p>Test: ${song.artist}</p>
-      <p>Test: ${song.collection}</p>
-      <p>Test: ${song.price}</p>
-      <img src="${song.albumart}" alt="somethingelse">
+  <img src="${song.albumArt}" alt="somethingelse">
+      <p>Title: ${song.title}</p>
+      <p>Artist: ${song.artist}</p>
+      <p>Album: ${song.collection}</p>
+      <p>Price: ${song.price}</p>
   </div>
   `
   }
