@@ -1,5 +1,6 @@
-#grad {
- background: linear-gradient(rgb(0, 81, 255), rgb(80, 80, 80));
+body {
+ background: linear-gradient(rgb(0, 162, 255), rgb(80, 80, 80));
+ height: 100vh;
 }
 
 .tile-title {
